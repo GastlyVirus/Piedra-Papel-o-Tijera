@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: 420px;
+  height: 100vh;
+  max-height: 745px;
+  margin: 0 auto;
+  background-color: #a7a29b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+#result {
+  text-align: center;
+}
+
+#result img {
+  width: 20%;
+}
+
+#startText {
+  font-size: 36px;
+  padding: 20px;
+}
+
+#groupButton {
+  display: flex;
+  width: 100%;
+}
+
+#groupButton > button > img {
+  width: 100%;
+}
