@@ -26,7 +26,6 @@ button {
   height: 100vh;
   max-height: 745px;
   margin: 0 auto;
-  background-color: #a7a29b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,7 +42,7 @@ h1 {
 }
 
 #result img {
-  width: 20%;
+  width: 30%;
 }
 
 #startText {
