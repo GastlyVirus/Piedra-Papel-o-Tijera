@@ -3,38 +3,45 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
-footer {
-  text-align: center;
-  padding: 10px;
+body {
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    120deg,
+    #2b28d1,
+    #9097ff,
+    #5779ff,
+    #00ddff,
+    #997aff,
+    #ca61c1,
+    #bb0048
+  );
+  background-size: 500%;
+  animation: animacion 40s infinite;
 }
 
-footer a {
-  color: black;
-  text-decoration: none;
+.container {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  height: 795px;
 }
 
 button {
   margin: 5px;
   cursor: pointer;
   border: none;
-}
-
-.container {
-  max-width: 420px;
-  height: 100vh;
-  max-height: 745px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background: none;
 }
 
 h1 {
+  padding-top: 20px;
   font-size: 35px;
   text-align: center;
-  padding: 20px;
 }
 
 #result {
@@ -42,7 +49,9 @@ h1 {
 }
 
 #result img {
-  width: 30%;
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #startText {
@@ -57,4 +66,26 @@ h1 {
 
 #groupButton > button > img {
   width: 100%;
+}
+
+footer {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.socialMedia {
+  width: 8%;
+  margin-left: 10px;
+}
+
+@keyframes animacion {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
