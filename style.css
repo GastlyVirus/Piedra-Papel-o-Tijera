@@ -21,7 +21,7 @@ body {
     #bb0048
   );
   background-size: 500%;
-  animation: animacion 40s infinite;
+  animation: animacion 30s infinite;
 }
 
 .container {
@@ -40,6 +40,7 @@ button {
 
 h1 {
   padding-top: 20px;
+  margin-bottom: 20px;
   font-size: 35px;
   text-align: center;
 }
@@ -56,12 +57,12 @@ h1 {
 
 #startText {
   font-size: 36px;
-  padding: 20px;
 }
 
 #groupButton {
   display: flex;
   width: 100%;
+  margin-top: 20px;
 }
 
 #groupButton > button > img {
