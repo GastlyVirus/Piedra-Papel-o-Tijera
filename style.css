@@ -25,8 +25,10 @@ body {
 }
 
 .container {
+  margin-top: 30px;
   background: rgba(0, 0, 0, 0.4);
-  margin-top: 80px;
+  border-radius: 25px;
+  height: 795px;
 }
 
 button {
@@ -37,9 +39,9 @@ button {
 }
 
 h1 {
+  padding-top: 20px;
   font-size: 35px;
   text-align: center;
-  padding: 20px;
 }
 
 #result {
@@ -47,7 +49,9 @@ h1 {
 }
 
 #result img {
-  width: 30%;
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #startText {
@@ -65,12 +69,13 @@ h1 {
 }
 
 footer {
+  padding-bottom: 20px;
   text-align: center;
-  padding: 10px;
 }
 
-footer a {
-  text-decoration: none;
+.socialMedia {
+  width: 8%;
+  margin-left: 10px;
 }
 
 @keyframes animacion {
