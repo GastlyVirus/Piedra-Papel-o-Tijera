@@ -10,12 +10,12 @@ body {
   height: 100vh;
   background-image: linear-gradient(
     120deg,
-    #942d22,
-    #7c4891,
-    #236692,
-    #13866f,
-    #9c7f0a,
-    #963c01
+    #c53a2a,
+    #b767d6,
+    #3491cf,
+    #1ccaa7,
+    #cca610,
+    #d85701
   );
   background-size: 400%;
   animation: animacion 30s infinite;
@@ -41,7 +41,7 @@ h1 {
 .container {
   margin: 0 auto;
   max-width: 500px;
-  height: 560px;
+  max-height: 560px;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 25px;
 }
