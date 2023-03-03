@@ -108,3 +108,87 @@ footer {
     background-position: 0% 50%;
   }
 }
+
+
+
+/*----------------------------Celular----------------------------*/
+@media screen and (max-width: 530px){
+  * {
+    max-width: 530px;
+    max-height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  header {
+    background: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+  
+  .container {
+    max-width: 400px;
+    max-height: 460px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  button {
+    margin: 1px;
+    margin-bottom: auto;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  #result {
+    text-align: center;
+  }
+  
+  #result img {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #startText {
+    font-size: 25px;
+  }
+  
+  #groupButton > button > img {
+    width: 75%;
+  }
+  
+  footer {
+    background: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  
+  .socialMedia {
+    width: 25px;
+    margin-top: 8px;
+  }
+  
+  @keyframes animacion {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
