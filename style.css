@@ -7,6 +7,7 @@
 }
 
 body {
+  overflow: hidden;
   height: 100vh;
   background-image: linear-gradient(
     120deg,
@@ -118,13 +119,9 @@ footer {
     max-height: 100%;
   }
   
-  body {
-    overflow: hidden;
-  }
-  
   header {
     background: rgba(0, 0, 0, 0.5);
-    width: 400px;
+    width: 300px;
     height: 40px;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -135,7 +132,7 @@ footer {
   }
   
   .container {
-    max-width: 400px;
+    max-width: 300px;
     max-height: 460px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -154,7 +151,7 @@ footer {
   }
   
   #result img {
-    width: 20%;
+    width: 30%;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -164,12 +161,12 @@ footer {
   }
   
   #groupButton > button > img {
-    width: 75%;
+    width: 70%;
   }
   
   footer {
     background: rgba(0, 0, 0, 0.5);
-    width: 400px;
+    width: 300px;
     height: 40px;
     margin-top: 30px;
     border-radius: 5px;
@@ -180,15 +177,4 @@ footer {
     margin-top: 8px;
   }
   
-  @keyframes animacion {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
 }
